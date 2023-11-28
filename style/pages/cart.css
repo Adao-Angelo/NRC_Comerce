@@ -1,0 +1,139 @@
+@import url(../global/global.css);
+
+header p {
+    font-weight: 900;
+}
+
+.produt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.produt .description_p h6{
+    color: var(--gray-300);
+    font-weight: 100;
+
+}
+
+.produt .description_p h5{
+    font-weight: 600;
+}
+.description_p{
+    width: 70%;
+}
+
+.buttom{
+    display: flex;
+    justify-content: space-between;
+}
+.mm{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+i svg{
+    display: block;
+    width: 1.3rem;
+    
+  }
+.produt img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.4rem;
+}
+svg{
+    color: var(--text-color);
+}
+  div.container div div i svg{
+    width: 0.8rem;
+    font-size: smaller;
+    font-weight: 100;
+    color: var(--text-color);
+
+}
+ .dark-mode div.container div div i svg{
+     background:var(--text-color);
+    
+ }
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 100%;
+    padding: 0.5rem;
+    color: var(--text-color);
+    
+    margin-top: 0.5rem;
+    border: 1px solid var(--gray-350);
+}
+.button:hover{
+    transition: 0.3s;
+    background-color: var(--green);
+    color: var(--white);
+    border-color:var(--green) ;
+}
+
+.total_button{
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 1rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+}
+
+
+a{
+    color: var(--text-color);
+}
+
+.alert{
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    background-color: rgba(31, 31, 31, 0.72);
+    visibility: hidden;
+    opacity: 0;
+  }
+  .alert.ative{
+    visibility: visible;
+    opacity: 1;
+  }
+  .alert button{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: var(--border-radius);
+
+  }
+ 
+  .alert div{
+    width: 16rem;
+    height: 9rem;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(228, 57, 57);
+    transform: translate(-50% , -50%);
+    border-radius: var(--border-radius);
+  }
+  .alert i{
+    color: rgb(247, 247, 5);
+    display: inline-block;
+
+}
+.total_button{
+    background-color:var(--background);
+}

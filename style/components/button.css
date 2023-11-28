@@ -1,0 +1,22 @@
+.button-mine{
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    width: 100%;
+    border:none;
+    font-weight: 800;
+    color: var(--white);
+    background-color: var(--green);
+    border-radius: var(--button-radius);
+    margin-bottom: 1rem;
+  }
+  .button-mine:hover{
+    transition: 0.3s;
+    background-color: rgba(64, 194, 122, 0.646);
+  }
+  
+
+  .button2 {
+   
+     background-color: var(--green); 
+     color: white;
+  }

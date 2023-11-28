@@ -1,0 +1,5 @@
+@import url(../global/global.css);
+
+footer menu {
+    background-color: var(--background);
+}

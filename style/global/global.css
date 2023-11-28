@@ -1,0 +1,132 @@
+@import url(./fonts.css);
+/* INPUTS AND BUTTON*/
+@import url(../components/main.css);
+
+/* THE ELEMENTS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*COLORS AND FONTES*/
+/**/
+
+:root {
+  --background: #fafafa;
+
+  --text-color: #1c1c1c;
+
+  --gray-100: #f0efef;
+  --gray-300: #7f7f7f;
+  --gray-350: #bababa;
+
+  --white: #fff;
+  --green: #24b27cd7;
+  --border-color: #bababa;
+
+  --font-regular: "Poppins regular";
+  --font-medium: "Poppins medium";
+  --font-bold: "Poppins bold";
+
+  --border-radius: 0.5rem;
+  --button-radius: 0.2rem;
+}
+
+.dark-mode:root{
+   
+  --background: #161616;
+
+  --text-color: #d3d3d3;
+
+}
+
+body {
+  margin-top: 1rem;
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+body {
+  font-family: var(--font-regular);
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: var(--font-regular);
+}
+
+.container {
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 1em 0;
+  align-items: center;
+}
+
+.txtmine {
+  font-size: smaller;
+}
+
+.button {
+  border-radius: var(--button-radius);
+}
+button {
+  font-weight: 800;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+}
+
+i{
+  cursor: pointer;
+  
+}
+i:hover{
+  color: var(--green);
+}
+
+i svg{
+  display: block;
+  width: 1.3rem;
+  font-size: larger; 
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.splitch{
+
+
+  width: 8rem;
+  
+}
+.splitch p{
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.produt img{
+    height: 7rem;
+}
+.pd{
+  cursor: pointer;
+}
+.numberOfprodut{
+  position: absolute;
+  top: 4%;
+  color: rgb(255, 70, 70);
+}

@@ -1,0 +1,45 @@
+ /* CONFIGURACOES GLOBAS*/
+ @import url(../global/global.css);
+
+
+.result{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.filter{
+    display: flex;
+    gap: 1rem;
+    width: 20%;
+   
+}
+svg {
+    color: var(--text-color);
+}
+.produts{
+    display: grid;
+      grid-template-columns: repeat(2,1fr);
+     gap: 1rem;
+}
+.produt{
+    width: 100%;
+    
+    
+}
+.produt img{
+    width: 100%;
+    border-radius: var(--border-radius) var(--border-radius)  0 0 ;
+    opacity: 0.9;
+}
+
+.description_search{
+    padding: 0.6rem;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+    gap: 0.6rem;
+}

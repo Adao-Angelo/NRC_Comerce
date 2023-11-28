@@ -1,0 +1,19 @@
+
+.barra-pesquise{
+    width: 80%;
+}
+.input{
+    width: 100%;
+    border: none;
+}
+
+.barra-pesquise i {
+    margin-top: -0.1rem;
+    position: absolute;
+    
+}
+
+.input::placeholder {
+    padding-left: 2rem;
+}
+

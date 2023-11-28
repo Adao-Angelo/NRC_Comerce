@@ -1,0 +1,44 @@
+@import url(../global/global.css);
+ a{
+    color:var(--black);
+ }
+.dataUser{
+
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+.dataUser div img{
+
+     width: 4rem;
+     height: 4rem;
+     border-radius: 50%;
+}
+
+main h3{
+
+    font-weight: 100;
+    border-bottom: 1px solid var(--gray-300);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+    
+
+
+}
+main h4 {
+    padding-left: 2rem;
+    font-size: small;
+    font-weight: 400;
+    color: var(--gray-300);
+    
+
+}
+
+ #dark{
+    margin-top: 1rem;
+    margin-left: 2rem;
+ }

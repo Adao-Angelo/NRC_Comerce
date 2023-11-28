@@ -1,0 +1,170 @@
+@import url(../global/global.css);
+.image {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.the_colors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.colors span {
+  color: var(--gray-300);
+}
+
+.colors a {
+  padding-left: 19%;
+  padding-bottom: 10%;
+  border-radius: var(--border-radius);
+}
+
+.txtmine {
+  font-size: smaller;
+}
+
+/*COLORS ########*/
+.marron {
+  background-color: rgba(233, 120, 120, 0.594);
+}
+.black {
+  background-color: rgba(23, 23, 23, 0.745);
+}
+.blue {
+  background-color: rgba(97, 163, 213, 0.593);
+}
+.green {
+  background-color: rgba(119, 243, 119, 0.457);
+}
+.grey {
+  background-color: rgba(210, 209, 209, 0.716);
+}
+
+.box-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.box-logo img {
+  width: 3rem;
+  border-radius: 50%;
+  height: 3rem;
+}
+.box-logo1 {
+  display: flex;
+  gap: 0.7rem;
+  width: 60%;
+  align-items: center;
+}
+.box-logo button {
+  color: var(--text-color);
+  width: 30%;
+  height: 7%;
+  padding: 0.3rem;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--button-radius);
+  background: var(--white);
+}
+.box-logo button:hover {
+  transition: 0.3s;
+  background-color: var(--green);
+  color: var(--white);
+  border: 1px solid var(--green);
+}
+.box-logo .txtmine {
+  color: var(--gray-300);
+}
+
+.box-logo .box-logo1 .subtitle{
+  margin-bottom: -0.2rem;
+}
+main .subtitle {
+  margin-bottom: 0.7rem;
+}
+
+.subtitle.amount {
+  margin-top: -0.8rem;
+}
+
+span.txtmine {
+  font-weight: 200;
+}
+div.description {
+  margin-bottom: 1rem;
+}
+
+.box_button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.5rem;
+  width: 48%;
+  border: 1px solid var(--gray-300);
+  font-weight: 800;
+  color: var(--text-color);
+  background-color: var(--gray-100);
+  border: none;
+}
+.button:hover {
+  transition: 0.3s;
+  background-color: var(--green);
+  color: var(--white);
+}
+ a{
+  color: var(--text-color);
+ }
+.button2.button:hover{
+  background: var(--green);
+  color: var(--white);
+ }
+
+.dark-mode .box-logo .button2.button:hover{
+  color: var(--white);
+  background: var(--gray-300);
+ }
+
+  .box-logo .button2.button{
+
+  padding: 0.5rem;
+  width: 6rem;
+  border: 1px solid var(--gray-300);
+  font-weight: 800;
+  color: var(--text-color);
+  background-color: var(--gray-100);
+  border: none;
+ }
+
+ 
+
+  .dark-mode .button {
+  padding: 0.5rem;
+  width: 48%;
+  border: 1px solid var(--gray-300);
+  font-weight: 800;
+  color: var(--background);
+  background-color: var(--gray-100);
+  border: none;
+}
+.dark-mode .button:hover {
+  transition: 0.3s;
+  background-color: var(--gray-300);
+  color: var(--white);
+}
+ a{
+  color: var(--text-color);
+ }
+
+  .dark-mode .box-logo .button2.button{
+  width: 6rem;
+  padding: 0.5rem;
+  border: 1px solid var(--gray-300);
+  font-weight: 800;
+  color: var(--background);
+  background-color: var(--gray-100);
+  border: none;
+ }

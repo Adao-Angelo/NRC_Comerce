@@ -1,0 +1,23 @@
+@import url(../global/global.css);
+
+.clear{
+    color: rgb(221, 45, 45);
+}
+.top{
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+svg.svg.vv.v3{
+    width: 1.3rem;
+    color: var(--gray-300);
+  }
+
+  a{
+    color: var( --text-color);
+  }

@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "name": "Adão joão ",
+      "email": "adaojoao@gmail.com",
+      "password": "jose",
+      "id": 1
+    },  
+    {
+      "name": "Adão lopes",
+      "email": "adaolopes@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "lusia  jose",
+      "email": "luisa@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "António Gabriel AG",
+      "email": "Antonio@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "Edgar Paulo ",
+      "email": "edgar@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "name": "Antônio Gabriel",
+      "email": "antonio@gmail.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "name": "Adão Ângelo",
+      "email": "joaoadaoangelo123@gmail.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "name": "josé Negão ",
+      "email": "jose@ gimail.com",
+      "password": "12345",
+      "id": 10
+    }
+  ],
+  "produtos": [
+    {
+      "image": "../style/image/image3.jpg",
+      "name": "carderno de 1000 paginas ",
+      "amount": "67000.99",
+      "id": 1,
+      "categoria": "aparelhos sonoros",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image2.jpg",
+      "name": "Esferografica de 100l de tinta ",
+      "amount": "99900.99",
+      "id": 2,
+      "categoria": "aparelhos sonoros",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image1.jpg",
+      "name": "Fones de ouvido da marca samsung",
+      "amount": "16990.99",
+      "id": 3,
+      "categoria": "aparelhos sonoros",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image2.jpg",
+      "name": "geladeir de 204mA por hora ",
+      "amount": "1000.99",
+      "id": 4,
+      "categoria": "aparelhos sonoros",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image3.jpg",
+      "name": "iphone 12 pro max",
+      "amount": "156700.99",
+      "id": 5,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image8.jpg",
+      "name": "iphone 12 pro max",
+      "amount": "156700.99",
+      "id": 6,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image9.jpg",
+      "name": "iphone 12 pro max",
+      "amount": "156700.99",
+      "id": 7,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image10.jpg",
+      "name": "iphone 12 pro max",
+      "amount": "156700.99",
+      "id": 8,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image8.jpg",
+      "name": "iphone 12 pro max",
+      "amount": "156700.99",
+      "id": 9,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image9.jpg",
+      "name": "notebook aplle 34 gz ram",
+      "amount": "156700.99",
+      "id": 10,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    },
+    {
+      "image": "../style/image/image10.jpg",
+      "name": "samsung s20 Utra ",
+      "amount": "156700.99",
+      "id": 11,
+      "categoria": "1",
+      "description": "O melhor produto da marca samsung tal como  nós os donos dessa marca gostamos muito de falar  que es pessoas nao sao de boa confinçao "
+    }
+  ],
+  "publicidades": [
+    {
+      "image": "../style/image/image1.jpg",
+      "id": 1
+    },
+    {
+      "image": "../style/image/image2.jpg",
+      "id": 2
+    },
+    {
+      "image": "../style/image/image3.jpg",
+      "id": 3
+    },
+    {
+      "image": "../style/image/image2.jpg",
+      "id": 4
+    }
+  ]
+}

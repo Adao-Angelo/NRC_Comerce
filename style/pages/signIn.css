@@ -1,0 +1,173 @@
+@import url(../global/global.css);
+body h2{
+    margin-top: 5rem;
+}
+
+ body{
+    color:var(--white);
+     text-align: center;
+     width: 100vw;
+     height: 100vh;
+     background-image: url(../image/image1.jpg);
+     background-attachment: fixed;
+     background-size:cover;
+     background-position:center;
+    
+     
+     
+ }
+
+
+ .container button{
+   width: 100%;
+   padding:0.5rem;
+   border: none;
+   color: var(--white);
+   background-color: var(--green);
+   border-radius: var(--border-radius);
+ }
+    
+ .container div{
+    width: 100%;
+    margin-top: 2rem;
+    
+ }
+
+  .container input{
+      display: block;
+      width: 100%;
+      padding:0.5rem;
+      border-radius: var(--border-radius);
+     margin-bottom: 1rem;
+     border: 1px solid var(--gray-300);
+  }
+
+  form{
+    margin-top: 9rem;
+  }
+
+ .container a{
+    font-weight: 900;
+    color: var(--green);
+  }
+  .container p{
+    margin-top: 2rem;
+  }
+  .alert{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    background-color: rgba(31, 31, 31, 0.72);
+    visibility: hidden;
+    opacity: 0;
+  }
+  .alert.ative{
+    visibility: visible;
+    opacity: 1;
+  }
+  .alert button{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: var(--border-radius);
+
+  }
+ 
+  .alert div{
+    width: 16rem;
+    height: 9rem;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(228, 57, 57);
+    transform: translate(-50% , -50%);
+    border-radius: var(--border-radius);
+  }
+
+
+  .alertP i{
+      color: rgb(247, 247, 5);
+      display: inline-block;
+
+  }
+
+  .alert i{
+    color: rgb(247, 247, 5);
+    display: inline-block;
+
+}
+.alert2 i svg{
+  color: rgb(252, 252, 252);
+  display: inline-block;
+
+}
+
+  .alertP{
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    background-color: rgba(31, 31, 31, 0.72);
+    visibility: hidden;
+    opacity: 0;
+  }
+  .alertP.ative{
+    
+    visibility: visible;
+    opacity: 1;
+  }
+  .alertP button{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: var(--border-radius);
+
+  }
+ 
+  .alertP div{
+    text-align: center;
+    width: 16rem;
+    height: 9rem;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(228, 57, 57);
+    transform: translate(-50% , -50%);
+    border-radius: var(--border-radius);
+  }
+
+  .alert2{
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    background-color: rgba(31, 31, 31, 0.589);
+    visibility: hidden;
+    opacity: 0;
+  }
+  .alert2.ative{
+    
+    visibility: visible;
+    opacity: 1;
+  }
+
+ 
+  .alert2 div{
+    text-align: center;
+    width: 16rem;
+    height: 9rem;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(26, 189, 43);
+    transform: translate(-50% , -50%);
+    border-radius: var(--border-radius);
+  }
