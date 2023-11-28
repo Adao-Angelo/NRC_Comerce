@@ -6,7 +6,7 @@ import { openUrl} from "../openUrl.js";
      const password = user.password
    
 
-    fetch('http://localhost:3000/users',
+    fetch(`${baseUrl}users`,
         {
             method:"POST",
             headers:{
